@@ -1,0 +1,95 @@
+/* Colours and font changes  */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+background-color: aliceblue;
+font-family: 'Open Sans', sans-serif;
+color: cornflowerblue;
+font-weight: 400;
+line-height: normal;
+}
+
+h1, h2 {
+  color: darkcyan;
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.fa-brands {
+  font-size: 75px;
+  color: darkgrey;
+}
+
+.fa-brands:hover {
+  color: black
+}
+
+#JT-profile-pic {
+  border-radius: 50%;
+  width: 200px;
+}
+
+.card {
+  background-color: white;
+  text-align: center;
+  border-radius: 5px;
+  padding: 40px;
+  margin: 20px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 40%;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.btn-red {
+  background-color:firebrick;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
